@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>STRENDY Backpack | Be Alwaystrendy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <h1>STRENDY</h1>
+  <p>Be Alwaystrendy</p>
+</header>
+
+<section class="hero">
+  <h2>Premium Laptop Backpack</h2>
+  <p>Anti-Theft • Water Resistant • USB Charging • Tear-Proof</p>
+  <a href="#buy" class="btn">Buy Now</a>
+</section>
+
+<section class="features">
+  <div>🔒 Anti-Theft Protection</div>
+  <div>💧 Water Resistant Fabric</div>
+  <div>🔋 USB Charging Port</div>
+  <div>🎒 Premium Tear-Proof Material</div>
+</section>
+
+<section class="product">
+  <img src="bag.jpg" alt="STRENDY Backpack">
+  <div>
+    <h3>STRENDY Laptop Backpack</h3>
+    <p>Designed for office, travel & daily hustle. Minimal, strong & stylish.</p>
+    <h4>₹2,199</h4>
+    <a id="buy" href="https://wa.me/918128381013" class="btn">Order on WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 STRENDY India. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
