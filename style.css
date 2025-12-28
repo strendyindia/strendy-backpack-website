@@ -1,45 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>STRENDY Backpack | Be Alwaystrendy</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-</head>
-<body>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+  color: #111;
+}
 
-<header>
-  <h1>STRENDY</h1>
-  <p>Be Alwaystrendy</p>
-</header>
+header {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
 
-<section class="hero">
-  <h2>Premium Laptop Backpack</h2>
-  <p>Anti-Theft • Water Resistant • USB Charging • Tear-Proof</p>
-  <a href="#buy" class="btn">Buy Now</a>
-</section>
+header h1 {
+  margin: 0;
+  font-size: 32px;
+  letter-spacing: 3px;
+}
 
-<section class="features">
-  <div>🔒 Anti-Theft Protection</div>
-  <div>💧 Water Resistant Fabric</div>
-  <div>🔋 USB Charging Port</div>
-  <div>🎒 Premium Tear-Proof Material</div>
-</section>
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f7f7f7;
+}
 
-<section class="product">
-  <img src="bag.jpg" alt="STRENDY Backpack">
-  <div>
-    <h3>STRENDY Laptop Backpack</h3>
-    <p>Designed for office, travel & daily hustle. Minimal, strong & stylish.</p>
-    <h4>₹2,199</h4>
-    <a id="buy" href="https://wa.me/918128381013" class="btn">Order on WhatsApp</a>
-  </div>
-</section>
+.hero h2 {
+  font-size: 36px;
+}
 
-<footer>
-  <p>© 2025 STRENDY India. All Rights Reserved.</p>
-</footer>
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 20px;
+}
 
-</body>
-</html>
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  padding: 40px;
+  gap: 20px;
+  text-align: center;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.product img {
+  width: 300px;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
