@@ -68,3 +68,9 @@ footer {
   width: 140px;
   margin-bottom: 10px;
 }
+
+.payments img {
+  width: 50px;
+  margin: 8px;
+  opacity: 0.8;
+}
