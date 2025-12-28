@@ -63,3 +63,8 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+.logo {
+  width: 140px;
+  margin-bottom: 10px;
+}
